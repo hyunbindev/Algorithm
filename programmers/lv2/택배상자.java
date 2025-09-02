@@ -16,7 +16,7 @@ class Solution {
                 answer++;
                 continue;
             }
-            else if(!q.isEmpty() && q.peek() == order[i]){
+            if(!q.isEmpty() && q.peek() == order[i]){
                 q.poll();
                 answer++;
                 continue;
