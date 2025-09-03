@@ -28,14 +28,14 @@ jobs:
               [ "$file_count" -eq 0 ] && continue
 
               echo "" >> README.md
-              echo "> **[${dir#./}](./${dir#./}) ($file_count files)**" >> README.md
+              echo "## **[${dir#./}](./${dir#./}) ($file_count files)**" >> README.md
               echo "" >> README.md
 
               # 파일 목록 (링크 + 마지막 커밋 날짜)
               while IFS= read -r file; do
                   file_name=$(basename "$file")
                   file_last_commit=$(git log -1 --format="%ad" --date=short -- "$file" 2>/dev/null || echo "N/A")
-                  echo "> - [${file_name}](./${dir#./}/${file_name}) ($file_last_commit)" >> README.md
+                  echo " - [${file_name}](./${dir#./}/${file_name}) ($file_last_commit)" >> README.md
               done < <(find "$dir" -maxdepth 1 -type f | sort)
 
               echo "" >> README.md
