@@ -19,15 +19,19 @@ jobs:
       # 2. README 생성
       - name: Generate README
         run: |
-          echo "# 알고리즘 풀이" > README.md
+          echo "# PS Solve Log" > README.md
           echo "" >> README.md
 
-          # 모든 디렉토리 순회 (루트 제외, .git 제외)
           find . -type d ! -path "./.git*" ! -path "." | sort | while read dir; do
               # 디렉토리 내 파일 개수
               file_count=$(find "$dir" -maxdepth 1 -type f | wc -l)
               echo "" >> README.md
 
+              echo "">> README.md
+
+              echo "### $dir ($file_count)" >> README.md
+              echo "" >> README.md
+              
               # 각 파일 이름 + 마지막 커밋 날짜
               find "$dir" -maxdepth 1 -type f | sort | while read file; do
                   file_name=$(basename "$file")
