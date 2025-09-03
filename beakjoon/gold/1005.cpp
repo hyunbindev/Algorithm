@@ -3,7 +3,7 @@
 #include<iostream>
 #include<vector>
 #include<queue>
-using namespace std;
+using namespace std; 
 
 int main() {
 	vector<int>result;
