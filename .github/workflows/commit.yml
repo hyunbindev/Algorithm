@@ -45,6 +45,7 @@ jobs:
       - name: Commit README
         run: |
           git config --global user.name "hyunbindev"
+          git config --global user.email gusqls3672@gmail.com
           git add README.md
           git commit -m "Update README with directory and file info" || echo "No changes to commit"
           git push https://x-access-token:${{ secrets.KEY }}@github.com/${{ github.repository }} HEAD:master
