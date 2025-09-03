@@ -18,7 +18,7 @@ jobs:
 
       - name: Generate README
         run: |
-          echo "# Algorithm Solve Log" >> README.md
+          echo "# Algorithm Solve Log" > README.md
           echo "김현빈의 문제 풀이 로그 저장소" >> README.md
           echo "" >> README.md
 
