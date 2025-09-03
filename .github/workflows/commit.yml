@@ -18,22 +18,19 @@ jobs:
 
       - name: Generate README
         run: |
-          echo "# Algorithm Solve Log" > README.md
-          echo "김현빈의 ps 기록소" > README.md
-          echo "" > README.md
+          echo "# Algorithm Solve Log" >> README.md
+          echo "김현빈의 문제 풀이 로그 저장소" >> README.md
           echo "" >> README.md
 
 
           while IFS= read -r dir; do
-              # 디렉토리 내 파일 개수
               file_count=$(find "$dir" -maxdepth 1 -type f | wc -l)
               [ "$file_count" -eq 0 ] && continue
 
               echo "" >> README.md
-              echo "### **[${dir#./}](./${dir#./}) ($file_count files)**" >> README.md
+              echo "### **[${dir#./}](./${dir#./}) ($file_count solves)**" >> README.md
               echo "" >> README.md
 
-              # 파일 목록 (링크 + 마지막 커밋 날짜)
               while IFS= read -r file; do
                   file_name=$(basename "$file")
                   file_last_commit=$(git log -1 --format="%ad" --date=short -- "$file" 2>/dev/null || echo "N/A")
