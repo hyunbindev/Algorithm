@@ -41,7 +41,6 @@ jobs:
               echo "" >> README.md
           done
 
-      # 3. README 커밋 & push
       - name: Commit README
         run: |
           git config --global user.name "hyunbindev"
