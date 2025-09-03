@@ -2,7 +2,7 @@ name: Update README
 
 on:
   push:
-    branches: [ master ]  # main 브랜치면 main으로 수정
+    branches: [ master ]
     paths-ignore:
       - 'README.md'
 
@@ -18,17 +18,19 @@ jobs:
 
       - name: Generate README
         run: |
-          echo "# PS Solve Log" > README.md
+          echo "# Algorithm Solve Log" > README.md
+          echo "김현빈의 ps 기록소" > README.md
+          echo "" > README.md
           echo "" >> README.md
 
-          # 디렉토리 목록 (루트 및 .git 제외)
+
           while IFS= read -r dir; do
               # 디렉토리 내 파일 개수
               file_count=$(find "$dir" -maxdepth 1 -type f | wc -l)
               [ "$file_count" -eq 0 ] && continue
 
               echo "" >> README.md
-              echo "## **[${dir#./}](./${dir#./}) ($file_count files)**" >> README.md
+              echo "### **[${dir#./}](./${dir#./}) ($file_count files)**" >> README.md
               echo "" >> README.md
 
               # 파일 목록 (링크 + 마지막 커밋 날짜)
