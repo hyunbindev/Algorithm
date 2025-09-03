@@ -1,7 +1,7 @@
 //https://school.programmers.co.kr/learn/courses/30/lessons/120866
 //안전지대
 
-function solution(board) {
+function solution(board) { 
     var answer = 0;
     const x = [0,1,1,1,0,-1,-1,-1];
     const y = [-1,-1,0,1,1,1,0,-1];
