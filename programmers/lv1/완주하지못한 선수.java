@@ -1,5 +1,5 @@
 //https://school.programmers.co.kr/learn/courses/30/lessons/42576
-import java.util.*;
+import java.util.*; 
 class Solution {
     public String solution(String[] participant, String[] completion) {
         Map<String,Integer> map = new HashMap<>();
