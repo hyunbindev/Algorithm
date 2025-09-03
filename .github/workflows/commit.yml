@@ -16,32 +16,30 @@ jobs:
           persist-credentials: false
           fetch-depth: 0
 
-      # 2. README 생성
       - name: Generate README
         run: |
           echo "# PS Solve Log" > README.md
           echo "" >> README.md
 
-          find . -type d ! -path "./.git*" ! -path "." | sort | while read dir; do
+          # 디렉토리 목록 (루트 및 .git 제외)
+          while IFS= read -r dir; do
               # 디렉토리 내 파일 개수
               file_count=$(find "$dir" -maxdepth 1 -type f | wc -l)
+              [ "$file_count" -eq 0 ] && continue
+
+              echo "" >> README.md
+              echo "> **[${dir#./}](./${dir#./}) ($file_count files)**" >> README.md
               echo "" >> README.md
 
-              echo "">> README.md
-
-              if [ "$file_count" -ne 0 ]; then
-              echo "> **[${dir#./}](./${dir#./}) ($file_count)" >> README.md
-              echo "" >> README.md
-              
-              # 각 파일 이름 + 마지막 커밋 날짜
-              find "$dir" -maxdepth 1 -type f | sort | while read file; do
+              # 파일 목록 (링크 + 마지막 커밋 날짜)
+              while IFS= read -r file; do
                   file_name=$(basename "$file")
-                  file_last_commit=$(git log -1 --format="%ad" --date=short -- "$file")
-                  echo "- [$file_name](./${dir#./}/${file_name}) ($file_last_commit)" >> README.md
-              done
+                  file_last_commit=$(git log -1 --format="%ad" --date=short -- "$file" 2>/dev/null || echo "N/A")
+                  echo "> - [${file_name}](./${dir#./}/${file_name}) ($file_last_commit)" >> README.md
+              done < <(find "$dir" -maxdepth 1 -type f | sort)
 
               echo "" >> README.md
-          done
+          done < <(find . -type d ! -path "./.git*" ! -path "." | sort)
 
       - name: Commit README
         run: |
