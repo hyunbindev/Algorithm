@@ -29,14 +29,15 @@ jobs:
 
               echo "">> README.md
 
-              echo "### $dir ($file_count)" >> README.md
+              if [ "$file_count" -ne 0 ]; then
+              echo "> **[${dir#./}](./${dir#./}) ($file_count)" >> README.md
               echo "" >> README.md
               
               # 각 파일 이름 + 마지막 커밋 날짜
               find "$dir" -maxdepth 1 -type f | sort | while read file; do
                   file_name=$(basename "$file")
                   file_last_commit=$(git log -1 --format="%ad" --date=short -- "$file")
-                  echo "- $file_name ($file_last_commit)" >> README.md
+                  echo "- [$file_name](./${dir#./}/${file_name}) ($file_last_commit)" >> README.md
               done
 
               echo "" >> README.md
