@@ -2,32 +2,36 @@ name: Update README
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master ]  # main 브랜치 이름에 맞게 수정 가능
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
 
     steps:
+      # 1. 코드 체크아웃
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      # 2. README 생성
       - name: Generate README
         run: |
           echo "# Project Structure" > README.md
           echo "" >> README.md
 
-          # 모든 디렉토리 순회
-          find . -type d ! -path "./.git*" ! -path "." | while read dir; do
+          # 모든 디렉토리 순회 (루트 제외, .git 제외)
+          find . -type d ! -path "./.git*" ! -path "." | sort | while read dir; do
+              # 디렉토리 내 파일 개수
               file_count=$(find "$dir" -maxdepth 1 -type f | wc -l)
-              
+
               # 디렉토리 마지막 커밋 날짜
               last_commit=$(git log -1 --format="%ad" --date=short -- "$dir")
-              
-              echo "### $dir ($file_count files, last commit: $last_commit)" >> README.md
 
-              # 파일별 이름 + 마지막 커밋 날짜
-              find "$dir" -maxdepth 1 -type f | while read file; do
+              echo "### $dir ($file_count files, last commit: $last_commit)" >> README.md
+              echo "" >> README.md
+
+              # 각 파일 이름 + 마지막 커밋 날짜
+              find "$dir" -maxdepth 1 -type f | sort | while read file; do
                   file_name=$(basename "$file")
                   file_last_commit=$(git log -1 --format="%ad" --date=short -- "$file")
                   echo "- $file_name (last commit: $file_last_commit)" >> README.md
@@ -36,10 +40,11 @@ jobs:
               echo "" >> README.md
           done
 
+      # 3. README 커밋 & push
       - name: Commit README
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
           git commit -m "Update README with directory and file info" || echo "No changes to commit"
-          git push
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:master
