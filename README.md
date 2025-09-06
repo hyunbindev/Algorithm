@@ -60,11 +60,12 @@
  - [할인 행사.java](./programmers/lv2/할인 행사.java) (2025-08-13)
 
 
-### **[programmers/lv3](./programmers/lv3) (18 solves)**
+### **[programmers/lv3](./programmers/lv3) (19 solves)**
 
  - [가장_먼_노드.java](./programmers/lv3/가장_먼_노드.java) (2025-09-03)
  - [기지국설치.java](./programmers/lv3/기지국설치.java) (2025-04-02)
  - [네트워크.cpp](./programmers/lv3/네트워크.cpp) (2025-01-08)
+ - [다단계_칫솔_판매.java](./programmers/lv3/다단계_칫솔_판매.java) (2025-09-06)
  - [단속카메라.java](./programmers/lv3/단속카메라.java) (2025-04-02)
  - [단어변환.java](./programmers/lv3/단어변환.java) (2025-03-31)
  - [등굣길.java](./programmers/lv3/등굣길.java) (2025-04-01)
