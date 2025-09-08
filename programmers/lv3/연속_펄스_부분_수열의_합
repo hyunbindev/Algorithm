@@ -1,0 +1,31 @@
+//https://school.programmers.co.kr/learn/courses/30/lessons/161988
+import java.util.*;
+class Solution {
+    public long solution(int[] sequence) {
+        long answer = Long.MIN_VALUE;
+        long[] s1 = new long[sequence.length];
+        long[] s2 = new long[sequence.length];
+        
+        for(int i =0; i<sequence.length; i++){
+            s1[i] = i%2!=0 ? (long)sequence[i] : -(long)sequence[i];
+            s2[i] = i%2==0 ? (long)sequence[i] : -(long)sequence[i];
+        }
+        
+        long[] dp1 = new long[sequence.length];
+        long[] dp2 = new long[sequence.length];
+        dp1[0] = s1[0];
+        dp2[0] = s2[0];
+        
+        answer = Math.max(dp1[0],dp2[0]);
+        
+        for(int i =1; i<sequence.length; i++){
+            dp1[i] = Math.max(s1[i], s1[i] + dp1[i-1]);
+            
+            dp2[i] = Math.max(s2[i], s2[i] + dp2[i-1]);
+            
+            answer = Math.max(answer, Math.max(dp1[i], dp2[i]));
+        }
+        
+        return answer;
+    }
+}
