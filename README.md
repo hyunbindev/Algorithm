@@ -60,7 +60,7 @@
  - [할인 행사.java](./programmers/lv2/할인 행사.java) (2025-08-13)
 
 
-### **[programmers/lv3](./programmers/lv3) (21 solves)**
+### **[programmers/lv3](./programmers/lv3) (22 solves)**
 
  - [가장_먼_노드.java](./programmers/lv3/가장_먼_노드.java) (2025-09-03)
  - [기지국설치.java](./programmers/lv3/기지국설치.java) (2025-04-02)
@@ -81,6 +81,7 @@
  - [이중우선순위큐.java](./programmers/lv3/이중우선순위큐.java) (2025-03-29)
  - [정수 삼각형.cpp](./programmers/lv3/정수 삼각형.cpp) (2025-01-05)
  - [정수 삼각형.java](./programmers/lv3/정수 삼각형.java) (2025-03-29)
+ - [좌물쇠와_열쇠.java](./programmers/lv3/좌물쇠와_열쇠.java) (2025-09-09)
  - [최고의집합.java](./programmers/lv3/최고의집합.java) (2025-04-01)
  - [풍선_터트리기.java](./programmers/lv3/풍선_터트리기.java) (2025-09-07)
 
