@@ -17,7 +17,7 @@
  - [완주하지못한 선수.java](./programmers/lv1/완주하지못한 선수.java) (2025-09-04)
 
 
-### **[programmers/lv2](./programmers/lv2) (41 solves)**
+### **[programmers/lv2](./programmers/lv2) (42 solves)**
 
  - [2*n_타일링.java](./programmers/lv2/2*n_타일링.java) (2025-09-05)
  - [JadenCase문자열만들기.cpp](./programmers/lv2/JadenCase문자열만들기.cpp) (2025-01-03)
@@ -43,6 +43,7 @@
  - [연속 부분 수열 합의 개수.java](./programmers/lv2/연속 부분 수열 합의 개수.java) (2025-08-13)
  - [영어 끝말잇기.java](./programmers/lv2/영어 끝말잇기.java) (2025-08-12)
  - [예상 대진표.java](./programmers/lv2/예상 대진표.java) (2025-08-12)
+ - [오픈채팅방.java](./programmers/lv2/오픈채팅방.java) (2025-09-11)
  - [올바른 괄호.cpp](./programmers/lv2/올바른 괄호.cpp) (2025-01-03)
  - [의상.java](./programmers/lv2/의상.java) (2025-09-02)
  - [전력망을 둘로나누기.java](./programmers/lv2/전력망을 둘로나누기.java) (2025-09-02)
