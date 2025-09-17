@@ -73,7 +73,7 @@
  - [할인 행사.java](./programmers/lv2/할인 행사.java) (2025-08-13)
 
 
-### **[programmers/lv3](./programmers/lv3) (29 solves)**
+### **[programmers/lv3](./programmers/lv3) (30 solves)**
 
  - [가장_먼_노드.java](./programmers/lv3/가장_먼_노드.java) (2025-09-03)
  - [기지국설치.java](./programmers/lv3/기지국설치.java) (2025-04-02)
@@ -87,6 +87,7 @@
  - [디스크 컨트롤러.java](./programmers/lv3/디스크 컨트롤러.java) (2025-09-04)
  - [미로_탈출_명령어.java](./programmers/lv3/미로_탈출_명령어.java) (2025-09-13)
  - [부대복귀.java](./programmers/lv3/부대복귀.java) (2025-09-03)
+ - [불량_사용자.java](./programmers/lv3/불량_사용자.java) (2025-09-17)
  - [섬 연결하기.java](./programmers/lv3/섬 연결하기.java) (2025-09-03)
  - [셔틀버스.java](./programmers/lv3/셔틀버스.java) (2025-09-09)
  - [순위.java](./programmers/lv3/순위.java) (2025-09-05)
