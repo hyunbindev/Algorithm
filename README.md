@@ -17,8 +17,9 @@
  - [완주하지못한 선수.java](./programmers/lv1/완주하지못한 선수.java) (2025-09-04)
 
 
-### **[programmers/lv2](./programmers/lv2) (62 solves)**
+### **[programmers/lv2](./programmers/lv2) (63 solves)**
 
+ - [124_의나라.java](./programmers/lv2/124_의나라.java) (2025-09-25)
  - [2*n_타일링.java](./programmers/lv2/2*n_타일링.java) (2025-09-05)
  - [JadenCase문자열만들기.cpp](./programmers/lv2/JadenCase문자열만들기.cpp) (2025-01-03)
  - [N개의 최소공배수.java](./programmers/lv2/N개의 최소공배수.java) (2025-08-12)
