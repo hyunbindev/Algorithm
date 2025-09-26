@@ -85,7 +85,7 @@
  - [호텔_대실.java](./programmers/lv2/호텔_대실.java) (2025-09-24)
 
 
-### **[programmers/lv3](./programmers/lv3) (33 solves)**
+### **[programmers/lv3](./programmers/lv3) (34 solves)**
 
  - [가장_먼_노드.java](./programmers/lv3/가장_먼_노드.java) (2025-09-03)
  - [광고_삽입.java](./programmers/lv3/광고_삽입.java) (2025-09-24)
@@ -100,6 +100,7 @@
  - [디스크 컨트롤러.java](./programmers/lv3/디스크 컨트롤러.java) (2025-09-04)
  - [미로_탈출_명령어.java](./programmers/lv3/미로_탈출_명령어.java) (2025-09-13)
  - [보석_쇼핑.java](./programmers/lv3/보석_쇼핑.java) (2025-09-20)
+ - [보행자_천국.java](./programmers/lv3/보행자_천국.java) (2025-09-26)
  - [부대복귀.java](./programmers/lv3/부대복귀.java) (2025-09-03)
  - [불량_사용자.java](./programmers/lv3/불량_사용자.java) (2025-09-17)
  - [섬 연결하기.java](./programmers/lv3/섬 연결하기.java) (2025-09-03)
