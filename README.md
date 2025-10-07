@@ -12,8 +12,9 @@
  - [안전지대.js](./programmers/lv0/안전지대.js) (2025-09-04)
 
 
-### **[programmers/lv1](./programmers/lv1) (1 solves)**
+### **[programmers/lv1](./programmers/lv1) (2 solves)**
 
+ - [가장_많이_받은_선물.java](./programmers/lv1/가장_많이_받은_선물.java) (2025-10-08)
  - [완주하지못한 선수.java](./programmers/lv1/완주하지못한 선수.java) (2025-09-04)
 
 
