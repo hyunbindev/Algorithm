@@ -92,9 +92,10 @@
  - [호텔_대실.java](./programmers/lv2/호텔_대실.java) (2025-09-24)
 
 
-### **[programmers/lv3](./programmers/lv3) (42 solves)**
+### **[programmers/lv3](./programmers/lv3) (43 solves)**
 
  - [110옮기기.java](./programmers/lv3/110옮기기.java) (2025-10-04)
+ - [2차원_동전.java](./programmers/lv3/2차원_동전.java) (2025-10-08)
  - [가장_먼_노드.java](./programmers/lv3/가장_먼_노드.java) (2025-09-03)
  - [광고_삽입.java](./programmers/lv3/광고_삽입.java) (2025-09-24)
  - [기둥과_보_설치.java](./programmers/lv3/기둥과_보_설치.java) (2025-10-08)
