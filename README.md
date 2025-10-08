@@ -92,7 +92,7 @@
  - [호텔_대실.java](./programmers/lv2/호텔_대실.java) (2025-09-24)
 
 
-### **[programmers/lv3](./programmers/lv3) (41 solves)**
+### **[programmers/lv3](./programmers/lv3) (42 solves)**
 
  - [110옮기기.java](./programmers/lv3/110옮기기.java) (2025-10-04)
  - [가장_먼_노드.java](./programmers/lv3/가장_먼_노드.java) (2025-09-03)
@@ -131,6 +131,7 @@
  - [징검다리_건너기.java](./programmers/lv3/징검다리_건너기.java) (2025-10-07)
  - [최고의집합.java](./programmers/lv3/최고의집합.java) (2025-04-01)
  - [파괴되지_않은_건물.java](./programmers/lv3/파괴되지_않은_건물.java) (2025-09-27)
+ - [표_병합.java](./programmers/lv3/표_병합.java) (2025-10-08)
  - [표_편집.java](./programmers/lv3/표_편집.java) (2025-09-14)
  - [표현_가능한_이진트리.java](./programmers/lv3/표현_가능한_이진트리.java) (2025-09-29)
  - [풍선_터트리기.java](./programmers/lv3/풍선_터트리기.java) (2025-09-07)
