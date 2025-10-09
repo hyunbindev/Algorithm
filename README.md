@@ -93,7 +93,7 @@
  - [호텔_대실.java](./programmers/lv2/호텔_대실.java) (2025-09-24)
 
 
-### **[programmers/lv3](./programmers/lv3) (44 solves)**
+### **[programmers/lv3](./programmers/lv3) (45 solves)**
 
  - [110옮기기.java](./programmers/lv3/110옮기기.java) (2025-10-04)
  - [2차원_동전.java](./programmers/lv3/2차원_동전.java) (2025-10-08)
@@ -110,6 +110,7 @@
  - [등굣길.java](./programmers/lv3/등굣길.java) (2025-04-01)
  - [등산코스_정하기.java](./programmers/lv3/등산코스_정하기.java) (2025-10-08)
  - [디스크 컨트롤러.java](./programmers/lv3/디스크 컨트롤러.java) (2025-09-04)
+ - [모두 0으로 만들기.java](./programmers/lv3/모두 0으로 만들기.java) (2025-10-09)
  - [미로_탈출_명령어.java](./programmers/lv3/미로_탈출_명령어.java) (2025-09-13)
  - [보석_쇼핑.java](./programmers/lv3/보석_쇼핑.java) (2025-09-20)
  - [보행자_천국.java](./programmers/lv3/보행자_천국.java) (2025-09-26)
