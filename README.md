@@ -142,3 +142,8 @@
  - [풍선_터트리기.java](./programmers/lv3/풍선_터트리기.java) (2025-09-07)
  - [합승_택시_요금.java](./programmers/lv3/합승_택시_요금.java) (2025-09-13)
 
+
+### **[programmers/lv4](./programmers/lv4) (1 solves)**
+
+ - [무지의_먹방_라이브.java](./programmers/lv4/무지의_먹방_라이브.java) (2025-10-09)
+
