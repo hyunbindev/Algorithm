@@ -143,7 +143,8 @@
  - [합승_택시_요금.java](./programmers/lv3/합승_택시_요금.java) (2025-09-13)
 
 
-### **[programmers/lv4](./programmers/lv4) (1 solves)**
+### **[programmers/lv4](./programmers/lv4) (2 solves)**
 
  - [무지의_먹방_라이브.java](./programmers/lv4/무지의_먹방_라이브.java) (2025-10-09)
+ - [호텔_방_배정.java](./programmers/lv4/호텔_방_배정.java) (2025-10-10)
 
