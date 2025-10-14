@@ -18,7 +18,7 @@
  - [완주하지못한 선수.java](./programmers/lv1/완주하지못한 선수.java) (2025-09-04)
 
 
-### **[programmers/lv2](./programmers/lv2) (74 solves)**
+### **[programmers/lv2](./programmers/lv2) (75 solves)**
 
  - [124_의나라.java](./programmers/lv2/124_의나라.java) (2025-09-25)
  - [2*n_타일링.java](./programmers/lv2/2*n_타일링.java) (2025-09-05)
@@ -61,6 +61,7 @@
  - [서버_증설_횟수.java](./programmers/lv2/서버_증설_횟수.java) (2025-09-18)
  - [석유시추.java](./programmers/lv2/석유시추.java) (2025-09-13)
  - [소수_찾기.java](./programmers/lv2/소수_찾기.java) (2025-10-04)
+ - [수식_최대화.java](./programmers/lv2/수식_최대화.java) (2025-10-14)
  - [숫자_변환하기.java](./programmers/lv2/숫자_변환하기.java) (2025-09-05)
  - [숫자의 표현.java](./programmers/lv2/숫자의 표현.java) (2025-08-12)
  - [스킬트리.cpp](./programmers/lv2/스킬트리.cpp) (2025-01-07)
