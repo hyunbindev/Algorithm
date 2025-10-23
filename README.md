@@ -19,7 +19,7 @@
  - [완주하지못한 선수.java](./programmers/lv1/완주하지못한 선수.java) (2025-09-04)
 
 
-### **[programmers/lv2](./programmers/lv2) (76 solves)**
+### **[programmers/lv2](./programmers/lv2) (77 solves)**
 
  - [124_의나라.java](./programmers/lv2/124_의나라.java) (2025-09-25)
  - [2*n_타일링.java](./programmers/lv2/2*n_타일링.java) (2025-09-05)
@@ -44,6 +44,7 @@
  - [다리를_지나는_트럭.java](./programmers/lv2/다리를_지나는_트럭.java) (2025-09-17)
  - [다음_큰_숫자.java](./programmers/lv2/다음_큰_숫자.java) (2025-09-24)
  - [더맵게.java](./programmers/lv2/더맵게.java) (2025-09-02)
+ - [도넛과_막대.java](./programmers/lv2/도넛과_막대.java) (2025-10-23)
  - [두_큐_합_같게_만들](./programmers/lv2/두_큐_합_같게_만들) (2025-09-12)
  - [뒤에있는큰수찾기.java](./programmers/lv2/뒤에있는큰수찾기.java) (2025-09-02)
  - [디펜스_게임.java](./programmers/lv2/디펜스_게임.java) (2025-10-03)
