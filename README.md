@@ -19,7 +19,7 @@
  - [완주하지못한 선수.java](./programmers/lv1/완주하지못한 선수.java) (2025-09-04)
 
 
-### **[programmers/lv2](./programmers/lv2) (77 solves)**
+### **[programmers/lv2](./programmers/lv2) (78 solves)**
 
  - [124_의나라.java](./programmers/lv2/124_의나라.java) (2025-09-25)
  - [2*n_타일링.java](./programmers/lv2/2*n_타일링.java) (2025-09-05)
@@ -86,6 +86,7 @@
  - [짝지어 제거하기.java](./programmers/lv2/짝지어 제거하기.java) (2025-08-12)
  - [최대값과최소값.cpp](./programmers/lv2/최대값과최소값.cpp) (2025-01-03)
  - [최소값구하기.cpp](./programmers/lv2/최소값구하기.cpp) (2025-01-03)
+ - [카펫.java](./programmers/lv2/카펫.java) (2025-10-23)
  - [쿼드압축_후_개수_세기.java](./programmers/lv2/쿼드압축_후_개수_세기.java) (2025-09-23)
  - [타겟_넘버.java](./programmers/lv2/타겟_넘버.java) (2025-09-02)
  - [택배상자.java](./programmers/lv2/택배상자.java) (2025-09-03)
