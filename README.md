@@ -20,7 +20,7 @@
  - [크레인_인형뽑기_게임.java](./programmers/lv1/크레인_인형뽑기_게임.java) (2025-10-23)
 
 
-### **[programmers/lv2](./programmers/lv2) (78 solves)**
+### **[programmers/lv2](./programmers/lv2) (79 solves)**
 
  - [124_의나라.java](./programmers/lv2/124_의나라.java) (2025-09-25)
  - [2*n_타일링.java](./programmers/lv2/2*n_타일링.java) (2025-09-05)
@@ -91,6 +91,7 @@
  - [쿼드압축_후_개수_세기.java](./programmers/lv2/쿼드압축_후_개수_세기.java) (2025-09-23)
  - [타겟_넘버.java](./programmers/lv2/타겟_넘버.java) (2025-09-02)
  - [택배상자.java](./programmers/lv2/택배상자.java) (2025-09-03)
+ - [테이블_해시_함수.java](./programmers/lv2/테이블_해시_함수.java) (2025-10-24)
  - [튜플.java](./programmers/lv2/튜플.java) (2025-09-05)
  - [파일명_정렬.java](./programmers/lv2/파일명_정렬.java) (2025-09-12)
  - [퍼즐_게임_챌린지.java](./programmers/lv2/퍼즐_게임_챌린지.java) (2025-10-10)
