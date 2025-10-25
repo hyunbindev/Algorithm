@@ -12,9 +12,10 @@
  - [안전지대.js](./programmers/lv0/안전지대.js) (2025-09-04)
 
 
-### **[programmers/lv1](./programmers/lv1) (4 solves)**
+### **[programmers/lv1](./programmers/lv1) (5 solves)**
 
  - [가장_많이_받은_선물.java](./programmers/lv1/가장_많이_받은_선물.java) (2025-10-08)
+ - [동영상_재생기.java](./programmers/lv1/동영상_재생기.java) (2025-10-25)
  - [예산.java](./programmers/lv1/예산.java) (2025-10-22)
  - [완주하지못한 선수.java](./programmers/lv1/완주하지못한 선수.java) (2025-09-04)
  - [크레인_인형뽑기_게임.java](./programmers/lv1/크레인_인형뽑기_게임.java) (2025-10-23)
