@@ -25,7 +25,7 @@
  - [햄버거만들기.java](./programmers/lv1/햄버거만들기.java) (2025-11-01)
 
 
-### **[programmers/lv2](./programmers/lv2) (80 solves)**
+### **[programmers/lv2](./programmers/lv2) (81 solves)**
 
  - [124_의나라.java](./programmers/lv2/124_의나라.java) (2025-09-25)
  - [2*n_타일링.java](./programmers/lv2/2*n_타일링.java) (2025-09-05)
@@ -89,6 +89,7 @@
  - [점프와순간이동.cpp](./programmers/lv2/점프와순간이동.cpp) (2025-01-03)
  - [주식가격.java](./programmers/lv2/주식가격.java) (2025-09-02)
  - [주차_요금_계산.java](./programmers/lv2/주차_요금_계산.java) (2025-09-11)
+ - [줄_서는_방법.java](./programmers/lv2/줄_서는_방법.java) (2025-12-15)
  - [지게차와_크레인.java](./programmers/lv2/지게차와_크레인.java) (2025-09-18)
  - [짝지어 제거하기.java](./programmers/lv2/짝지어 제거하기.java) (2025-08-12)
  - [최대값과최소값.cpp](./programmers/lv2/최대값과최소값.cpp) (2025-01-03)
