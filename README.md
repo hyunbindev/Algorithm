@@ -25,7 +25,7 @@
  - [햄버거만들기.java](./programmers/lv1/햄버거만들기.java) (2025-11-01)
 
 
-### **[programmers/lv2](./programmers/lv2) (81 solves)**
+### **[programmers/lv2](./programmers/lv2) (82 solves)**
 
  - [124_의나라.java](./programmers/lv2/124_의나라.java) (2025-09-25)
  - [2*n_타일링.java](./programmers/lv2/2*n_타일링.java) (2025-09-05)
@@ -67,6 +67,7 @@
  - [방문길이.java](./programmers/lv2/방문길이.java) (2025-09-02)
  - [배달.java](./programmers/lv2/배달.java) (2025-09-13)
  - [베스트엘범.java](./programmers/lv2/베스트엘범.java) (2025-09-04)
+ - [삼각달팽이.java](./programmers/lv2/삼각달팽이.java) (2025-12-18)
  - [서버_증설_횟수.java](./programmers/lv2/서버_증설_횟수.java) (2025-09-18)
  - [석유시추.java](./programmers/lv2/석유시추.java) (2025-09-13)
  - [소수_찾기.java](./programmers/lv2/소수_찾기.java) (2025-10-04)
