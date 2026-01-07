@@ -12,7 +12,7 @@
  - [안전지대.js](./programmers/lv0/안전지대.js) (2025-09-04)
 
 
-### **[programmers/lv1](./programmers/lv1) (16 solves)**
+### **[programmers/lv1](./programmers/lv1) (17 solves)**
 
  - [가장_많이_받은_선물.java](./programmers/lv1/가장_많이_받은_선물.java) (2025-10-08)
  - [같은_숫자는_싫어.java](./programmers/lv1/같은_숫자는_싫어.java) (2025-12-29)
@@ -27,6 +27,7 @@
  - [완주하지못한 선수.java](./programmers/lv1/완주하지못한 선수.java) (2025-09-04)
  - [유연근무제.java](./programmers/lv1/유연근무제.java) (2025-11-01)
  - [자연수_뒤집어_배열로_만들기.java](./programmers/lv1/자연수_뒤집어_배열로_만들기.java) (2025-10-26)
+ - [콜라_문제.java](./programmers/lv1/콜라_문제.java) (2026-01-07)
  - [크레인_인형뽑기_게임.java](./programmers/lv1/크레인_인형뽑기_게임.java) (2025-10-23)
  - [키패드_누르기.java](./programmers/lv1/키패드_누르기.java) (2025-10-28)
  - [햄버거만들기.java](./programmers/lv1/햄버거만들기.java) (2025-11-01)
