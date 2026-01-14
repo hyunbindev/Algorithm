@@ -12,7 +12,7 @@
  - [안전지대.js](./programmers/lv0/안전지대.js) (2025-09-04)
 
 
-### **[programmers/lv1](./programmers/lv1) (20 solves)**
+### **[programmers/lv1](./programmers/lv1) (21 solves)**
 
  - [가장_많이_받은_선물.java](./programmers/lv1/가장_많이_받은_선물.java) (2025-10-08)
  - [같은_숫자는_싫어.java](./programmers/lv1/같은_숫자는_싫어.java) (2025-12-29)
@@ -24,6 +24,7 @@
  - [서울에서_김서방_찾기.java](./programmers/lv1/서울에서_김서방_찾기.java) (2025-12-21)
  - [숫자_문자열과_영단어.java](./programmers/lv1/숫자_문자열과_영단어.java) (2025-12-31)
  - [숫자_짝꿍.java](./programmers/lv1/숫자_짝꿍.java) (2026-01-05)
+ - [없는_숫자_더하기.kt](./programmers/lv1/없는_숫자_더하기.kt) (2026-01-14)
  - [예산.java](./programmers/lv1/예산.java) (2025-10-22)
  - [완주하지못한 선수.java](./programmers/lv1/완주하지못한 선수.java) (2025-09-04)
  - [유연근무제.java](./programmers/lv1/유연근무제.java) (2025-11-01)
