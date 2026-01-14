@@ -12,11 +12,12 @@
  - [안전지대.js](./programmers/lv0/안전지대.js) (2025-09-04)
 
 
-### **[programmers/lv1](./programmers/lv1) (18 solves)**
+### **[programmers/lv1](./programmers/lv1) (19 solves)**
 
  - [가장_많이_받은_선물.java](./programmers/lv1/가장_많이_받은_선물.java) (2025-10-08)
  - [같은_숫자는_싫어.java](./programmers/lv1/같은_숫자는_싫어.java) (2025-12-29)
  - [동영상_재생기.java](./programmers/lv1/동영상_재생기.java) (2025-10-25)
+ - [두_정수_사이의_합.kt](./programmers/lv1/두_정수_사이의_합.kt) (2026-01-14)
  - [둘만의_암호.java](./programmers/lv1/둘만의_암호.java) (2026-01-01)
  - [문자열_나누기.java](./programmers/lv1/문자열_나누기.java) (2025-12-29)
  - [비밀지도.java](./programmers/lv1/비밀지도.java) (2025-12-29)
